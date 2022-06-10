@@ -21,7 +21,7 @@
     while($row = pg_fetch_array($result))
     {
 
-        echo $row['photo_url'];
+        echo "<img src='" . $row['photo_url'] . "'></img>";
 
     }
 ?>
